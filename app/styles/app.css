@@ -1,0 +1,30 @@
+.body {
+  padding: 0;
+}
+
+.card {
+  height: 768px;
+  position: relative;
+  width: 1024px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card .details {
+  background-color: rgba(0, 0, 0, 0.2);
+  bottom: 0;
+  color: #eee;
+  padding: 1em;
+  position: absolute;
+  width: 100%;
+}
+
+.card h3 {
+  color: white;
+}
+
+.card a {
+  color: inherit;
+}

@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'ember-tutorial-with-basic-web-components',
     environment: environment,
-    rootURL: 'https://janmiksovsky.github.io/ember-tutorial-with-basic-web-components/dist/',
+    rootURL: '/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {

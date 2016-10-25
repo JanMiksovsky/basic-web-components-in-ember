@@ -2044,7 +2044,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ember-tutorial-with-basic-web-components/app")["default"].create({"name":"ember-tutorial-with-basic-web-components","version":"0.0.0+697c534a"});
+  require("ember-tutorial-with-basic-web-components/app")["default"].create({"name":"ember-tutorial-with-basic-web-components","version":"0.0.0+94cb9445"});
 }
 
 /* jshint ignore:end */

@@ -1,6 +1,7 @@
 {
   "name": "ember-tutorial-with-basic-web-components",
   "dependencies": {
+    "custom-elements": "webcomponents/custom-elements#1.0.0-alpha.3",
     "ember": "~2.9.0",
     "ember-cli-shims": "0.1.3"
   }

@@ -1,5 +1,5 @@
-<article class="card">
-  <img src="{{rental.image}}" alt="">
+<article class="card" aria-label="{{rental.title}}">
+  <img src="{{rental.image}}" alt="{{rental.title}}">
   <div class="details">
     {{#link-to "rentals.show" rental}}
       <h3>{{rental.title}}</h3>

@@ -1,6 +1,10 @@
-<div class="carousel">
-  {{#each model as |rentalUnit|}}
-    {{rental-card rental=rentalUnit}}
-  {{/each}}
-</div>
+<basic-arrow-selection class="overlay" aria-label="Rental Properties">
+  <basic-page-dots>
+    <basic-carousel>
+      {{#each model as |rentalUnit|}}
+        {{rental-card rental=rentalUnit}}
+      {{/each}}
+    </basic-carousel>
+  </basic-page-dots>
+</basic-arrow-selection>
 {{outlet}}

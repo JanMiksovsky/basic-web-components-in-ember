@@ -21,5 +21,11 @@ module.exports = function(defaults) {
   // along with the exports of each module as its value.
   app.import('vendor/gmaps.js');
 
+  app.import('bower_components/custom-elements/src/native-shim.js');
+  app.import('bower_components/custom-elements/src/htmlelement-instanceof.js');
+  app.import('vendor/basic-arrow-selection.js');
+  app.import('vendor/basic-carousel.js');
+  app.import('vendor/basic-page-dots.js');
+
   return app.toTree();
 };

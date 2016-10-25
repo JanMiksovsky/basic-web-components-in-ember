@@ -1,0 +1,43 @@
+.body {
+  padding: 0;
+  position: relative;
+}
+
+/*
+ * To maintain a 3:4 aspect ratio, we set padding-bottom.
+ * See http://stackoverflow.com/a/10441480/76472
+ */
+basic-arrow-selection {
+  padding-bottom: 75%;
+  position: absolute;
+  width: 100%;
+}
+
+basic-page-dots {
+  height: 100%;
+  position: absolute;
+  width: 100%
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.card .details {
+  background-color: rgba(0, 0, 0, 0.2);
+  bottom: 0;
+  color: #eee;
+  padding: 1em;
+  position: absolute;
+  text-shadow: 0px 0px 5px black;
+  width: 100%;
+}
+
+.card h3 {
+  color: white;
+}
+
+.card a {
+  color: inherit;
+}

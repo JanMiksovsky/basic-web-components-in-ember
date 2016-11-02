@@ -7076,6 +7076,12 @@ define('ember-cli-test-loader/test-support/index', ['exports'], function (export
 define('ember-qunit', ['exports', 'ember-qunit/module-for', 'ember-qunit/module-for-component', 'ember-qunit/module-for-model', 'ember-qunit/adapter', 'ember-test-helpers', 'qunit'], function (exports, _emberQunitModuleFor, _emberQunitModuleForComponent, _emberQunitModuleForModel, _emberQunitAdapter, _emberTestHelpers, _qunit) {
   'use strict';
 
+  Object.defineProperty(exports, 'module', {
+    enumerable: true,
+    get: function get() {
+      return _qunit.module;
+    }
+  });
   Object.defineProperty(exports, 'test', {
     enumerable: true,
     get: function get() {
